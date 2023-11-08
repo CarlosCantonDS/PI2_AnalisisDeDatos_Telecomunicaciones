@@ -48,7 +48,7 @@ Este proyecto se divide de forma estructurada en los siguientes puntos, que se d
 
 
 
-`EDA (Análisis Exploratorio de Datos)`
+### **EDA (Análisis Exploratorio de Datos)**
 
 - Calidad del dato:<br>
 Se inició el EDA con una fase de preprocesamiento para limpiar el conjunto de datos. Esta etapa implicó la identificación y manejo de valores faltantes o nulos, outliers, la corrección de formatos de datos y la unificación de tablas relevantes para un análisis más profundo. El método utilizado para calcular los outliers fue el del umbral de 3 desviaciones estándar y se consideraron outliers los superiores e inferiores al umbral definido. Para tener mayor prolijidad en el código y mayor orden a lo largo del proyecto, se desarrolló un archivo helper.py que cuenta con funciones para hacer análisis sobre la calidad del dato. <br>
@@ -71,14 +71,14 @@ Por otra parte, con el EDA se pudo saber cuál es el Top 5 de provincias con may
  
 Un breve análisis con lo que podemos observar es que, hay mucha variación en la velocidad aún habiendo seleccionado el Top 5 con mayor cantidad de accesos por ejemplo, para Tierra de fuego que está en el top 2 de cantidad de accesos, tiene las menores velocidades a lo largo de la gráfica de tiempo. Lo cual, denota que no hay una relación entre la cantidad de accesos y la velocidad promedio por provincia, pero en algunos casos si es congruente como es el caso de Cápital Federal. Para analizar mejor las gráficas se puede ingresar al notebook de este repositorio.
 
-`Enfoque del Storytelling del proyecto`
+### **Enfoque del Storytelling del proyecto**
 
 Con base en el EDA y toda la información que se analizó, se decidió tomar el siguiente enfoque para la narrativa que se va a seguir durante los dashboards y el resto del proyecto: Principalmente, el enfoque se basa en que, los servicios con mayor cantidad de reclamos son los servicios de Internet y Telefonía (como parte de la consigna de este proyecto se dió como fuente de datos obligatoria el Servicio de Internet) por lo cual, se tomó en cuenta la telefonía como un análisis complementario. Tomando en cuenta la cantidad de reclamos y considerando que Internet cuenta con una mayor cantidad de ingresos por este servicio, se decidió presentar KPIs relacionados con estos dos servicios y tomar el enfoque de la mejora de los mismos. Se presentarán KPIs que serán enfocados acorde con esta narrativa.
 
-`KPI´s (Indicador Clave de Rendimiento)`
+### **KPI´s (Indicador Clave de Rendimiento)**
 
 
-<span style="color: green">KPI de aumento en un 2% los accesos:</span> <br>
+`KPI de aumento en un 2% los accesos:` 
 Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100 hogares, por provincia. <br>
 La fórmula es la siguiente:<br>
 
@@ -97,13 +97,13 @@ KPI = ((510 - 500) / 500) * 100 = 2%
 
 Esto indicaría un aumento del 2% en el acceso a Internet en esa provincia para el próximo trimestre.
 
-<span style="color: green">KPI de reducción de reclamos por tipo de reclamo:</span> <br>
+`KPI de reducción de reclamos por tipo de reclamo:`
 Este KPI cuenta con un filtro al cual según le indiques en el filtro que tipo de reclamo quieres analizar, por ejemplo problemas técnicos o problemas con la facturación, entonces te muestra un KPI de si para ese mes se pasó el KPI o si no se logró cumplir, tambien cuenta con un filtro del 2, 5 y 10% para que con base en eso muestre si esta mes en comparación con el mes anterior tuvo la reducción de ese porcentaje en los reclamos.<br>
 
-<span style="color: green">KPI de aumento de los ingresos(2, 5 y 10%):</span> <br>
+`KPI de aumento de los ingresos(2, 5 y 10%):`
 Este KPI también cuenta con un filtro de porcentaje pero de incremento y hace la comparación de ingresos por trimestre, es decir se toma en cuenta dos trimestres y te da como resultado si conseguiste superar el aumento en un 2, 5 y 10% según lo seleccionado en el filtro. Por otro lado, este KPI puede funcionar tanto para Internet como para Telefonía ya que la estructura de ambos conjuntos de datos es muy similar.
 
-`Dashboard con Power BI`
+### **Dashboard con Power BI**
 
 Para este dashboard se aplicó el patrón Z para tener una mejor visualización, más clara de los datos. El patrón Z en diseño se refiere a un concepto de diseño que se basa en el seguimiento de la trayectoria natural de la lectura que los ojos humanos tienden a seguir al mirar una página. Esto resulta en una distribución más efectiva de la información, facilitando la comprensión y la interacción con los datos presentados. <br>
 A continuación se presenta uno de los gráficos realizados en Power BI pero el dashboard completo con sus distintas pestañas y los KPIs se encuentran en el archivo del dashboard. <br>
