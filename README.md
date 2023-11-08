@@ -1,3 +1,6 @@
+![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn)
+![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=matplotlib)
 
 <p align='center'>
 <img src ="imagenes/Data-Analytics-Benefits-768x403.png"width="450" height="200">
@@ -133,3 +136,7 @@ En resumen, este análisis demostró que el EDA y las técnicas de visualizació
 
 **Complementario:**
 - [Datasets complementarios](https://datosabiertos.enacom.gob.ar/home) de reclamos y Telefonía.
+
+**Información de Contacto:**
+- [LinkedIn](https://www.linkedin.com/in/carlos-g-canton-/)
+- Correo electrónico: cag.canton@gmail.com
