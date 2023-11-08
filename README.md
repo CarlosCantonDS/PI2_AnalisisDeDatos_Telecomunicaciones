@@ -1,3 +1,4 @@
+
 <p align='center'>
 <img src ="imagenes/Data-Analytics-Benefits-768x403.png"width="450" height="200">
 <p>
@@ -28,6 +29,13 @@ En comparación con la media mundial, Argentina está a la vanguardia en el desa
 
 Como tal, el enfoque de este proyecto será relacionado específicamente con Internet y Telefonía, a lo largo de este readme se demostrará porque se escogieron esos dos servicios para este proyecto.
 
+### **Tecnologías utilizadas en el Proyecto**
+
+- Microsoft Power BI
+- DAX
+- Pandas, Matplotlib, Seaborn
+- Jupyter Notebooks con Python
+- Desarrollo de helper.py con métodos para el EDA
 
 ### **Roles principales del Proyecto**
 
